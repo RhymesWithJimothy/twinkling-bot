@@ -46,6 +46,15 @@ if(message.content.toLowerCase().includes( ['aoyama'] ) ){
  if(message.content.toLowerCase().includes( ['love'] ) ){
        message.react("💛");
    }  
+  
+ if(message.content.toLowerCase().includes( ['Shinsou'] ) ){
+       message.react("💜");
+   }  
+  
+ if(message.content.toLowerCase().includes( ['Shinyuuga'] ) ){
+       message.react("💜");
+       message.react("💛");
+   }  
 
 var randomaoyama = Math.round(Math.random() * (187 - 1) + 1)
 var aoyamapic = [ '',
