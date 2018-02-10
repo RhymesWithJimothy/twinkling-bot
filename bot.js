@@ -47,11 +47,11 @@ if(message.content.toLowerCase().includes( ['aoyama'] ) ){
        message.react("💛");
    }  
   
- if(message.content.toLowerCase().includes( ['Shinsou'] ) ){
+ if(message.content.toLowerCase().includes( ['shinsou'] ) ){
        message.react("💜");
    }  
   
- if(message.content.toLowerCase().includes( ['Shinyuuga'] ) ){
+ if(message.content.toLowerCase().includes( ['shinyuuga'] ) ){
        message.react("💜");
        message.react("💛");
    }  
