@@ -21,11 +21,11 @@ bot.on('message', message => {
 var rand = Math.round(Math.random() * (7 - 1) + 1)
 var cheesemessage = [ '',
             "Here's some cheese! :cheese:",
-             message.author.username + "! :cheese: :sparkles: !",
+            ":cheese: :sparkles: !",
             'Oui?',
-            "Would you like some cheese, " + message.author.username + " ?",
+            "Would you like some cheese?",
             "I cannot stop twinkling!",
-            "Bonjour, " + message.author.username + "!", 
+            "Bonjour!", 
             ":sparkles: :cheese: :sparkles:"
               ];
 
