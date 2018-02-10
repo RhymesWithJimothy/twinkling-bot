@@ -248,14 +248,19 @@ var aoyamapic = [ '',
               ];
 
 
-
+const AOYOO = new Discord.RichEmbed()
+   /*
+   * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
+   */
+  .setColor(0x36393E)
+  .setImage(aoyamapic[randomaoyama]);
   
-if (message.content.startsWith(prefix + "aoyama"))  {
-message.channel.sendMessage(" ", {
-    file: aoyamapic[randomaoyama]
-});
+  
+  
+  if (message.content.startsWith(prefix + "aoyama"))  {
+message.channel.sendEmbed(AOYOO);
 }
-
+  
 
 if (message.content.startsWith(prefix + "help"))  {
 message.channel.sendMessage(":sparkles: :cheese: A  **Yuuga Aoyama**  Bot   |   Prefix: `✨`\nCurrent commands: `aoyama` , `clap` ,  `cheese` , `house` |  Command example: `✨ aoyama`");
