@@ -4,7 +4,7 @@ const bot = new Discord.Client();
 
 bot.on('ready', () => {
   console.log('I am ready!');
-  bot.setGame("with glitter")
+  bot.user.setPresence({ game: { name: 'with glitter ✨', type: 0 } })
   
   //var channeli = bot.channels.get('339905111482564608');
   //channeli.sendMessage("I'm here! :sparkles:");
