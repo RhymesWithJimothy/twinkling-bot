@@ -4,7 +4,8 @@ const bot = new Discord.Client();
 
 bot.on('ready', () => {
   console.log('I am ready!');
-  bot.user.setGame('✨ aoyama')
+  bot.setGame("with glitter")
+  
   //var channeli = bot.channels.get('339905111482564608');
   //channeli.sendMessage("I'm here! :sparkles:");
   
