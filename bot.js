@@ -543,13 +543,17 @@ const AOYOO = new Discord.RichEmbed()
   
    
   
-  if (message.content.toLowerCase().startsWith(prefix + "aoyama"))  {
+  if (message.content.toLowerCase().startsWith(prefix))  {
+    
+    if (message.content.toLowerCase().includes("aoyama"))  {
     
       if(message.content.toLowerCase().includes( ['mang'] ) ){
           message.channel.sendEmbed(AOYOMANGO);
           }
     
       else message.channel.sendEmbed(AOYOO);
+      
+    }
 }
   
 
