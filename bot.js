@@ -35,18 +35,23 @@ if(message.content.toLowerCase().includes( ['bepsi'] ) || message.content.toLowe
    }
 
 if(message.content.toLowerCase().includes( ['aoyama'] ) ){
+  
+   if(message.content.toLowerCase().includes( ['love'] ) ){
+       message.react("💛");
+   } 
+   
+  
      if(message.content.toLowerCase().startsWith( ['✨'] ) ){ }
 
      else if(message.content.toLowerCase().includes( ['cheese'] ) ){
         message.channel.sendMessage( cheesemessage[rand] );
    }
    
+  
      else message.react("✨");
    }   
 
- if(message.content.toLowerCase().includes( ['love'] ) ){
-       message.react("💛");
-   }  
+ 
   
  if(message.content.toLowerCase().includes( ['shinsou'] ) ){
        message.react("💜");
